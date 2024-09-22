@@ -97,10 +97,14 @@ main h2 {
     flex-direction: column;
 }
  input{
+  background: white;
+  color: black;
     padding: 8px;
     width: 100%;
 }
 #description{
+  background: white;
+  color: black;
   padding: 10px;
   width: 100%;
   min-height: 100px;
