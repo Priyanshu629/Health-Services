@@ -16,7 +16,7 @@ export const addService = (
     setMsg("");
   }, 2000);
 
-  if (serviceName == "" || servicePrice == null || serviceDescription == "") {
+  if (serviceName == "" || servicePrice == "" || serviceDescription == "") {
     return setMsg("All fields are required");
   } else if (isNaN(price)) {
     setMsg("Price must be a number");
