@@ -1,0 +1,205 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: pink;
+}
+header p {
+  font-style: italic;
+  color: green;
+}
+
+main {
+  width: 95%;
+  margin: 10px auto;
+}
+main h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#add ,#submit{
+  padding: 10px;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  cursor: pointer;
+  font-style: bold;
+  font-size: 17px;
+  margin: 10px;
+}
+#add:hover{
+    background: rgb(76, 154, 76);
+}
+#submit{
+  width: 50%;
+  margin: 10px auto;
+  background: rgb(2, 124, 2);
+}
+#submit:hover{
+  background: rgb(141, 164, 141);
+  color: black;
+}
+
+.add-form{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(58, 70, 53);
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+}
+.add-form-top{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-form-top h1{
+    font-size: 25px;
+}
+.add-form-top  span{
+   font-size: 20px;
+   padding: 8px;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   background: rgb(110, 75, 10);
+}
+.add-form-top  span:hover{
+    background: rgb(245, 194, 123);
+    color: black;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.input-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ input{
+    padding: 8px;
+    width: 100%;
+}
+#description{
+  padding: 10px;
+  width: 100%;
+  min-height: 100px;
+}
+ label{
+  font-size: 18px;
+  margin: 8px;
+  font-weight: bold;
+}
+#list-services{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service{
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  background: azure;
+}
+.no-service{
+  font-style: italic;
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.service p{
+  color: blueviolet;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.service h2{
+  margin: 8px 0;
+}
+.service span{
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 20px;
+  color: tomato;
+}
+
+.cta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.cta button{
+  padding: 8px;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.cta button:first-child{
+  background: rgb(255, 33, 33);
+}
+.cta button:last-child{
+  background: grey;
+}
+.cta button:last-child:hover{
+  background: rgb(65, 62, 62);
+
+}
+.cta button:first-child:hover{
+  background: rgb(254, 72, 72);
+  color: black;
+}
+
+
+.msg-box{
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+.msg-box p{
+  padding: 10px;
+  background: rgb(12, 12, 111);
+  color: white;
+}
+
+@media screen and (max-width:480px) {
+    
+    .add-form{
+        width: 95%;
+    }
+    .add-form-top span{
+        margin-left: 5px;
+    }
+    
+    
+}
